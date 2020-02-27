@@ -1,16 +1,30 @@
 body {
     font-family: 'Roboto';
+
     
 }
-.navbar {
-    position: fixed;
-    top: 0;
+.component-container {
+    margin: 0;
     left: 0;
-    width: 100%;
-    color: #fff;
-    background-color: #000;
-    
+}
 
-    
+.navbar a {
+    text-decoration: none;
+    color: #000;
 
-} 
+
+}.navbar-logo {
+    margin-top: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-shadow: 1px 0.5px grey;
+
+}
+
+.navbar-links a {
+    
+}
+.navbar-navigation {
+    display: flex;
+}
