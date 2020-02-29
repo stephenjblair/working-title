@@ -1,0 +1,12 @@
+.footer-container {
+    display: flex
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    height: 12vh;
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+}

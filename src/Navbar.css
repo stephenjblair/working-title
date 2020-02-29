@@ -1,29 +1,27 @@
 body {
     font-family: 'Roboto';
+    background-color:#000;
 
     
 }
-.component-container {
-    margin: 0;
-    left: 0;
+.nav-container {
+    height: 12vh;
+    background-color:#000;
+    margin-bottom: 20px;
 }
 
 .navbar a {
     text-decoration: none;
-    color: #000;
+    maring-top: 20px;
+    color: #fff;
 
-
-}.navbar-logo {
+}.navbar-nav-items {
     margin-top: 20px;
-    margin-left: 20px;
-    text-decoration: none;
-    font-size: 1.5rem;
-    text-shadow: 1px 0.5px grey;
-
 }
 
-.navbar-links a {
-    
+#via-image {
+   height: 100px;
+   width:200px;
 }
 .navbar-navigation {
     display: flex;

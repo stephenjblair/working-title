@@ -11,6 +11,7 @@ class Movies extends React.Component {
             title: "" ,
             imdbResults: [],
             isRetrieved: false,
+            errorMessage: false
 
         }
     }
